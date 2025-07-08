@@ -37,6 +37,7 @@
     <depend>pcl_ros</depend>
     <depend>git</depend>
     <depend>apr</depend>
+    <build_depend>livox_sdk2</build_depend>
 
     <export>
         <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>
